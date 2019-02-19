@@ -1,0 +1,8 @@
+icon_source:
+
+icon_target:
+
+svg_icons: 
+  default: ''
+  type: list
+  description: Additional FontAwesome 5 icons used in this theme
