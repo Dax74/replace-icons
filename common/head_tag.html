@@ -1,3 +1,15 @@
 <script type="text/discourse-plugin" version="0.8">
-    api.replaceIcon(settings.icon[1], settings.icon[2]);
-</script>
+  var socprov = settings.icons,
+    sec = $.map(socprov.split("|"), $.trim);
+  
+  $.each(sec, function(value) {
+    var sec = $.map(this.split(","), $.trim);
+    api.replaceIcon({
+       icon: sec[1].toLowerCase(),
+       icon: sec[2].toLowerCase() {
+         return (sec[3]);
+       };
+    });
+  });
+</script>  
+       
